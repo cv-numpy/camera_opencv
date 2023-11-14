@@ -29,7 +29,7 @@ cap.set(cv.CAP_PROP_FRAME_HEIGHT, 480)
 
 
 '''
-# Numpy array cropping
+# Cropping a Box from a numpy array
 
 image[y0:y0+height , x0:x0+width, :]
 
