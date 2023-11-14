@@ -31,6 +31,8 @@ cap.set(cv.CAP_PROP_FRAME_HEIGHT, 480)
 '''
 # Numpy array cropping
 
+image[y0:y0+height , x0:x0+width, :]
+
 # from y1 to y2
 frame[center_h-delta_h:center_h+delta_h]
 # from x1 to x2
