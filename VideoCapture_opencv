@@ -1,0 +1,16 @@
+from cv2 import VideoCapture
+
+def exam(camX):
+    camera = VideoCapture(camX)
+
+    camera_ready = False
+    if camera.isOpened():
+        setup_result, frame = camera.read()
+        if setup_result:
+            height, width = frame.shape[:2]
+            square_size = min(height, width)
+
+            camera_ready = True
+            camera.release()
+
+    assert camera_ready,'Webcam ' + str(camX) + 'activation failed.'
