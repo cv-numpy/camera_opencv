@@ -14,3 +14,13 @@ def exam(camX):
             camera.release()
 
     assert camera_ready,'Webcam ' + str(camX) + 'activation failed.'
+
+
+
+# Template
+
+# cap.set(cv.CAP_PROP_FRAME_WIDTH, 960)
+# cap.set(cv.CAP_PROP_FRAME_HEIGHT, 720)
+
+# cap.set(cv.CAP_PROP_FRAME_WIDTH, 640)
+# cap.set(cv.CAP_PROP_FRAME_HEIGHT, 480)
