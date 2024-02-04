@@ -20,7 +20,7 @@ def exam(camX):
 '''
 Camera resolution
 
-cap.set(cv.CAP_PROP_FRAME_WIDTH, 960)
+cap.set(cv.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv.CAP_PROP_FRAME_HEIGHT, 720)
 
 cap.set(cv.CAP_PROP_FRAME_WIDTH, 640)
